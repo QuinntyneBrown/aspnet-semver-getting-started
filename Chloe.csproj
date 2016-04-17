@@ -134,7 +134,7 @@
     <Compile Include="Server\Config\Contracts\IConfigurationProvider.cs" />
     <Compile Include="Server\Config\Contracts\ISmtpConfiguration.cs" />
     <Compile Include="Server\Config\SmtpConfiguration.cs" />
-    <Compile Include="Server\Controllers\v1.1\ProductController.cs" />
+    <Compile Include="Server\Controllers\v1\ProductController.cs" />
     <Compile Include="Server\Controllers\v2\ProductController.cs" />
     <Compile Include="Server\Data\ChloeContext.cs" />
     <Compile Include="Server\Data\ChloeUow.cs" />

@@ -5,9 +5,9 @@ namespace Chloe.Server.Controllers.v2
 {
     //Can not have two controllers with the same name (ProductControllers) in the Application
     [RoutePrefix("api/v2/product")]
-    public class Productv2Controller : ApiController
+    public class v2_ProductController : ApiController
     {
-        public Productv2Controller(IProductService productService)
+        public v2_ProductController(IProductService productService)
         {
             this.productService = productService;
         }
